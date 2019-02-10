@@ -1,0 +1,20 @@
+{
+  "bbAppManifestVersion":"1.0",
+  "name": "Lesson Day9",
+  "unique_name": "day9",
+  "version": "0.1",
+  "description": "12 Lessons Day 9",
+  "author": "BookingBug",
+  "licence": "GPL",
+  "tags": "12days",
+  "config": false,
+  "panels": [ 
+    "day9_panel"
+  ],
+  "objects": [  
+    "present"
+  ],
+  "script_packs": [
+    "day9_scripts"
+  ]
+}

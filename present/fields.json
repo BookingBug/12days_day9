@@ -1,0 +1,64 @@
+{
+  "present": {
+    "key": "present",
+    "type": "string",
+    "title": "Present",
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  "count": {
+    "key": "count",
+    "type": "integer",
+    "title": "Count",
+    "required": false,
+    "x-schema-form": {
+        "type": "number"
+    },
+    "default": 1,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  "recipient": {
+    "key": "recipient",
+    "type": "string",
+    "title": "Recipient",    
+    "required": true,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  "true_love": {
+    "key": "true_love",
+    "type": "boolean",
+    "title": "True Love ?",
+    "required": false,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  },
+  "date_gifted": {
+    "key": "true_love",
+    "type": "string",
+    "title": "Date Gifted",    
+    "x-schema-form": {
+        "type": "date"
+    },
+    "required": false,
+    "drops": true,
+    "permissions": {
+      "admin": ["new","edit", "put","post","list","get","del"],
+      "public": []
+    }
+  }
+}

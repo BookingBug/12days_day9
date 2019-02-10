@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "name": "Day9Scripts",
+  "description": "Scripts for Day 9 of Lessons",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-24",
+  "updated_at": "2018-10-24",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"Presents",
+      "description":"Get a running count of all presents",
+      "type":"PublicScript",
+      "actions": ["Get", "Post"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "presents",
+      "root_page": "presents"
+    }
+  ]
+}
